@@ -8,7 +8,7 @@ npm install time-axis-auto --save
 ### 运行效果
 <table>
     <tr>
-        <td ><center><img src="public/test.gif" ></center></td>
+        <td ><center><img src="./public/test.gif" ></center></td>
     </tr>
 </table>
 
