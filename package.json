@@ -1,18 +1,30 @@
 {
-  "name": "run-time-line",
-  "version": "0.1.0",
-  "private": true,
+  "name": "time-axis-auto",
+  "version": "0.1.3",
+  "description": "It is a running timeline component. ",
+  "main": "./dist/time-axis-auto.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "distribute": "vue-cli-service build --target lib --name time-axis-auto ./src/components/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengxiaoning/time-axis-auto.git"
+  },
+  "keywords": [
+    "timeLine",
+    "time-axis-auto",
+    "timeAxisAuto"
+  ],
+  "author": "dex",
+  "email": "d1236688@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengxiaoning/time-axis-auto.git"
+  },
+  "homepage": "https://github.com/dengxiaoning/time-axis-auto.git",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.0",
-    "@vue/cli-service": "^4.4.0",
-    "vue-template-compiler": "^2.6.11"
-  }
+  "devDependencies": {}
 }
