@@ -1,13 +1,28 @@
 # run-time-line
 
+
 ## Project setup
 ```
-npm install run-time-line --save
+npm install time-axis-auto --save
 ```
+### 运行效果
+<table>
+    <tr>
+        <td ><center><img src="test.gif" ></center></td>
+    </tr>
+</table>
+
+####  [在线demo https://www.benpaodehenji.com/timeline](https://www.benpaodehenji.com/timeline)
 
 ## Use 
+### main.js 
+```
+import 'time-axis-auto'
+```
 
-### Configure components
+### test.vue
+
+```
 <template>
       <time-axis-auto
       :options="options"
@@ -16,8 +31,6 @@ npm install run-time-line --save
       :interval="interval"
     ></time-axis-auto>
 </template>
-### Configure params
-```
 <script>
 export default {
   data() {
@@ -51,5 +64,7 @@ export default {
 }
 </script>
 ```
+
+
 
 #### The case reference https://www.jianshu.com/p/fb51fe44ff47
